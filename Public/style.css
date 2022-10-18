@@ -1,0 +1,97 @@
+.navbar {
+  background-color: var(--bs-primary);
+}
+
+.navbar-nav {
+  justify-self: flex-end;
+}
+
+.collapse.navbar-collapse {
+  flex-grow: initial;
+}
+
+.nav-link {
+  color: white;
+}
+.nav-link.active {
+  color: white;
+}
+
+.page-title {
+  text-align: center;
+  padding: 20px;
+}
+
+.row {
+  gap: 10px;
+}
+
+.card-header {
+  border: 0px;
+}
+
+.row {
+  justify-content: center;
+  width: 98vw;
+  margin: auto;
+}
+
+.btn {
+  align-items: flex-end;
+  margin: 10px;
+}
+
+img {
+  height: 30vh;
+}
+
+.card.h-100 {
+  box-shadow: 1px 1px 10px gray;
+}
+
+.card {
+  border: none;
+}
+.card.text-center {
+  margin-top: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: var(--bs-light);
+}
+
+.card-text {
+  display: none;
+}
+
+footer {
+  background-color: var(--bs-primary);
+}
+
+@media (min-width: 768px) {
+  .row-cols-md-2 > * {
+    flex: 0 0 auto;
+    width: 48%;
+  }
+}
+@media (min-width: 1200px) {
+  .row-cols-lg-4 > * {
+    flex: 0 0 auto;
+    width: 24%;
+  }
+  .card-text {
+    display: block;
+  }
+  .dropdown {
+    position: relative;
+  }
+  .dropdown-menu {
+    position: absolute;
+  }
+  .dropdown-menu[data-bs-popper] {
+    top: 100%;
+    left: -80px;
+    margin-top: var(--bs-dropdown-spacer);
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
